@@ -1,5 +1,7 @@
 
 function App() {
+  const d = new Date().toLocaleString();
+ console.log(d);
   return (
     <form>
         <label>
@@ -109,6 +111,8 @@ function App() {
          <option value="4">4</option>
          </select>
          </label>
+    
+       <p> Date: {d} </p>
          <input type="submit" value="Submit" />
          </form>
 
